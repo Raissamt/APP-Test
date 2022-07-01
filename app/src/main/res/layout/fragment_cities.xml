@@ -9,7 +9,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/black">
 
 
         <ScrollView
@@ -48,6 +49,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Natal - Rio Grande do Norte - BR"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -73,6 +75,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Rio de Janeiro - Rio de Janeiro - BR"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -98,6 +101,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Recife - Pernambuco - BR"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -123,6 +127,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="São Paulo - São Paulo - BR"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -148,6 +153,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="João Pessoa - Paraíba - BR"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -173,6 +179,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Miami - Florida - Eua"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -198,6 +205,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="New York - New York - EUA"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -223,6 +231,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="New Jersey - New Jersey - EUA"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -248,6 +257,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Dallas - Texas - EUA"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -273,6 +283,7 @@
                         android:layout_height="wrap_content"
                         android:padding="16dp"
                         android:text="Los Angeles - California - EUA"
+                        android:textColor="@color/white"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>

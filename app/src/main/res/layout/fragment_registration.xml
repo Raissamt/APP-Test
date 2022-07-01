@@ -5,7 +5,7 @@
     android:id="@+id/settingsContainer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#70C0E4">
+    android:background="#000000">
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/nameLayout"
@@ -119,8 +119,9 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/black"
+        android:backgroundTint="#F6F5F5"
         android:text="@string/next"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
