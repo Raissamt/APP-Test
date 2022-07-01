@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentRegistration">
+
+    <fragment
+        android:id="@+id/fragmentRegistration"
+        android:name="br.com.rdmapps.challenge.FragmentRegistration"
+        android:label="Cadastro"
+        tools:layout="@layout/fragment_registration" >
+        <action
+            android:id="@+id/action_fragmentCadastro_to_fragmentTerms"
+            app:destination="@id/fragmentTerms" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTerms"
+        android:name="br.com.rdmapps.challenge.FragmentTerms"
+        android:label="Termos de Utilização"
+        tools:layout="@layout/fragment_terms" >
+        <action
+            android:id="@+id/action_fragmentTerms_to_fragmentCities"
+            app:destination="@id/fragmentCities" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCities"
+        android:name="br.com.rdmapps.challenge.FragmentCities"
+        android:label="Lista de Cidades"
+        tools:layout="@layout/fragment_cities" >
+        <action
+            android:id="@+id/action_fragmentCities_to_fragmentCityDetail"
+            app:destination="@id/fragmentCityDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCityDetail"
+        android:name="br.com.rdmapps.challenge.FragmentCityDetail"
+        android:label="Detalhes da Cidade"
+        tools:layout="@layout/fragment_city_detail" >
+        <action
+            android:id="@+id/action_fragmentCityDetail_to_fragmentRegistration"
+            app:destination="@id/fragmentRegistration" />
+    </fragment>
+</navigation>

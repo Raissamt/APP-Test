@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentCities">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/city1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/item_image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/natal"
+                        tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/item_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Natal - Rio Grande do Norte - BR"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city1">
+
+                    <ImageView
+                        android:id="@+id/item_image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/rio_de_janeiro" />
+
+                    <TextView
+                        android:id="@+id/item_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Rio de Janeiro - Rio de Janeiro - BR"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city2">
+
+                    <ImageView
+                        android:id="@+id/item_image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/recife" />
+
+                    <TextView
+                        android:id="@+id/item_title3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Recife - Pernambuco - BR"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city3">
+
+                    <ImageView
+                        android:id="@+id/item_image4"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sao_paulo" />
+
+                    <TextView
+                        android:id="@+id/item_title4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="São Paulo - São Paulo - BR"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city4">
+
+                    <ImageView
+                        android:id="@+id/item_image5"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/joao_pessoa" />
+
+                    <TextView
+                        android:id="@+id/item_title5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="João Pessoa - Paraíba - BR"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city5">
+
+                    <ImageView
+                        android:id="@+id/item_image6"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/miami" />
+
+                    <TextView
+                        android:id="@+id/item_title6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Miami - Florida - Eua"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city6">
+
+                    <ImageView
+                        android:id="@+id/item_image7"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/new_york" />
+
+                    <TextView
+                        android:id="@+id/item_title7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="New York - New York - EUA"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city7">
+
+                    <ImageView
+                        android:id="@+id/item_image8"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/new_jersey" />
+
+                    <TextView
+                        android:id="@+id/item_title8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="New Jersey - New Jersey - EUA"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city8">
+
+                    <ImageView
+                        android:id="@+id/item_image9"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/dallas" />
+
+                    <TextView
+                        android:id="@+id/item_title9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Dallas - Texas - EUA"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/city10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintTop_toBottomOf="@+id/city9">
+
+                    <ImageView
+                        android:id="@+id/item_image10"
+                        android:layout_width="match_parent"
+                        android:layout_height="194dp"
+                        android:importantForAccessibility="no"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/los_angeles" />
+
+                    <TextView
+                        android:id="@+id/item_title10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:text="Los Angeles - California - EUA"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
