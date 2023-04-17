@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge.ui.main
+package br.com.app-test.challenge.ui.main
 
 import androidx.lifecycle.ViewModel
 

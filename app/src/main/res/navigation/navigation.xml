@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentRegistration"
-        android:name="br.com.rdmapps.challenge.FragmentRegistration"
+        android:name="br.com.app-test.challenge.FragmentRegistration"
         android:label="Cadastro"
         tools:layout="@layout/fragment_registration" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentTerms"
-        android:name="br.com.rdmapps.challenge.FragmentTerms"
+        android:name="br.com.app-test.challenge.FragmentTerms"
         android:label="Termos de Utilização"
         tools:layout="@layout/fragment_terms" >
         <action
@@ -25,7 +25,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentCities"
-        android:name="br.com.rdmapps.challenge.FragmentCities"
+        android:name="br.com.app-test.challenge.FragmentCities"
         android:label="Lista de Cidades"
         tools:layout="@layout/fragment_cities" >
         <action
@@ -34,7 +34,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentCityDetail"
-        android:name="br.com.rdmapps.challenge.FragmentCityDetail"
+        android:name="br.com.app-test.challenge.FragmentCityDetail"
         android:label="Detalhes da Cidade"
         tools:layout="@layout/fragment_city_detail" >
         <action

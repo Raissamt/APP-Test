@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge
+package br.com.app-test.challenge
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("br.com.rdmapps.challenge", appContext.packageName)
+        assertEquals("br.com.app-test.challenge", appContext.packageName)
     }
 }

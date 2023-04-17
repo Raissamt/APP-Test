@@ -1,11 +1,11 @@
-package br.com.rdmapps.challenge.ui.main
+package br.com.app-test.challenge.ui.main
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import br.com.rdmapps.challenge.MainActivity
-import br.com.rdmapps.challenge.R
+import br.com.app-test.challenge.MainActivity
+import br.com.app-test.challenge.R
 
 class SplashScreenActivity : AppCompatActivity() {
 

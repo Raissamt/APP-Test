@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/RDMappsChallenge/app/src/main/res/layout/fragment_cities.xml" value="0.27291666666666664" />
-        <entry key="..\:/RDMappsChallenge/app/src/main/res/layout/fragment_city_detail.xml" value="0.27291666666666664" />
-        <entry key="..\:/RDMappsChallenge/app/src/main/res/layout/fragment_registration.xml" value="0.27291666666666664" />
-        <entry key="..\:/RDMappsChallenge/app/src/main/res/layout/fragment_terms.xml" value="0.27291666666666664" />
+        <entry key="..\:/APP-testChallenge/app/src/main/res/layout/fragment_cities.xml" value="0.27291666666666664" />
+        <entry key="..\:/APP-testChallenge/app/src/main/res/layout/fragment_city_detail.xml" value="0.27291666666666664" />
+        <entry key="..\:/APP-testChallenge/app/src/main/res/layout/fragment_registration.xml" value="0.27291666666666664" />
+        <entry key="..\:/APP-testChallenge/app/src/main/res/layout/fragment_terms.xml" value="0.27291666666666664" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.184375" />
         <entry key="app/src/main/res/layout/fragment_cadastro.xml" value="0.2504528985507246" />

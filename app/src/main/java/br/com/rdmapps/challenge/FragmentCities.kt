@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge
+package br.com.app-test.challenge
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge.ui.main
+package br.com.app-test.challenge.ui.main
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import br.com.rdmapps.challenge.R
+import br.com.app-test.challenge.R
 
 class MainFragment : Fragment() {
 

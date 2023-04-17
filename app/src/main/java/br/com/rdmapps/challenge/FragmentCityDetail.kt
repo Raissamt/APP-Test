@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge
+package br.com.app-test.challenge
 
 import android.media.Image
 import android.os.Bundle

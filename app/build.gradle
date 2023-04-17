@@ -7,7 +7,7 @@ android {
     compileSdk 32
 
     defaultConfig {
-        applicationId "br.com.rdmapps.challenge"
+        applicationId "br.com.app-test.challenge"
         minSdk 31
         targetSdk 32
         versionCode 1

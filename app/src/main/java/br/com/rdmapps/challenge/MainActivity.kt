@@ -1,4 +1,4 @@
-package br.com.rdmapps.challenge
+package br.com.app-test.challenge
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
